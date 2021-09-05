@@ -1,0 +1,27 @@
+
+### Obtener todos los videos
+GET http://localhost:5000/videos
+
+### Obteer 1 video por ID
+GET http://localhost:5000/videos/6134014069b8165df5097322
+
+### Create video
+POST http://localhost:5000/videos
+Content-Type: application/json
+
+{
+    "url": "chau.com",
+    "title": "titulon",
+    "description": "piolon"
+}
+
+###
+DELETE  http://localhost:5000/videos/6134014069b8165df5097322
+
+###
+PUT  http://localhost:5000/videos/6134014769b8165df5097325
+Content-Type: application/json
+
+{
+    "title": "actualizado"
+}
